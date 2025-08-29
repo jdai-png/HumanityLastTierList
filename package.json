@@ -4,9 +4,11 @@
   "description": "A Bun script to create a tier list from a folder of images.",
   "main": "index.js",
   "type": "module",
-  "scripts": {
-    "start": "bun run server.js",
-    "generate": "bun generate.js" 
-  },
+"scripts": {
+  "start": "bun run server.js",
+  "generate": "bun generate.js",
+  "dp": "bun run generate && git add . && git commit --amend",
+  "push": "git push origin HEAD --force"
+},
   "dependencies": {}
 }
