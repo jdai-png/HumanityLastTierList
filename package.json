@@ -1,0 +1,12 @@
+{
+  "name": "bun-tierlist",
+  "version": "1.0.0",
+  "description": "A Bun script to create a tier list from a folder of images.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "bun run server.js",
+    "generate": "bun generate.js" 
+  },
+  "dependencies": {}
+}
